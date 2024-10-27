@@ -1,0 +1,76 @@
+
+
+.radial-gradient-bg {
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+  }
+
+body {
+    background: radial-gradient(Circle,#decdf8, #cfb3fa,#675487,#291763, #211040);
+    text-align: center;
+    background-color: #211040;
+    font-family: "Crete Round", serif;
+    
+}
+h1 {
+    color: #000000;
+    font-size: 80px;
+    font-family: "Crete Round", serif;
+}
+table {
+    margin: auto;
+}
+
+th {
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+input {
+    font-family: "Fredoka", sans-serif;
+    margin: 10px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    /*border-style:outset;
+    border: #875ada;
+    border-width: 5px;*/
+    margin: 30px 20px;
+    min-width: 150px;
+    font-family: "Fredoka", sans-serif;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.countdown {
+display: flex;
+justify-content: center;
+}
+
+.heading {
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Crete Round", serif;
+    font-weight: 700;
+}
+
+.time {
+    background-color: #000000;
+    color: aliceblue;
+    font-size: 100px;
+    margin: 0 10px;
+    border-radius: 7px;
+    width: 170px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}

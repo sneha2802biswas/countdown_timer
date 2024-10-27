@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Fredoka:wght@300..700&display=swap');
+            </style>
+<title>Countdown Timer</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+    </head>
+    <body>
+<h1> COUNTDOWN TIMER</h1>
+<p>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter Date:</th>
+                <th>Enter Time:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date"></td>
+                <td><input type="time" id="time"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="set">
+        Set
+    </button>
+    <button id="stop">
+        Stop
+    </button>
+    <button id="reset">
+        Reset
+    </button>
+</p>
+<div class="countdown">
+    <div>
+        <p class="heading">DAYS</p>
+        <div class="time" id="countdays">0</div>
+    </div>
+    <div>
+        <p class="heading">HOURS</p>
+        <div class="time" id="counthours">0</div>
+    </div>
+    <div>
+        <p class="heading">MINUTES</p>
+        <div class="time" id="countmins">0</div>
+    </div>
+    <div>
+        <p class="heading">SECONDS</p>
+        <div class="time" id="countsecs">0</div>
+    </div>
+</div>
+    </body>
+</html>
